@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.border-style:hover{
+    border: 0.094rem solid white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.navbar-ribbion{
+    background-color: #131921;
+    height: 3.75rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 3rem;
+    width: 6rem;
+}
+
+.logo{
+    height: 3rem;
+    width: 100%;
+    padding: 0.19rem;
+    border: 0.094rem solid transparent;
+    background-image: url("../Resourses/images/amazon_logo.png");
+    background-size: cover;
+}
+
+.address{
+    height: 3rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-icon{
+    width: 1rem;
+    height: 1rem;
+}
+#loc-001{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+}
+
+#add-one{
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 2px;
+}
+#add-sec{
+    font-size: 14px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+.nav-search{
+    box-sizing: content-box;
+    height: 40px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    border: 3px solid transparent;
+}
+
+.nav-search:hover{
+    border-radius: 8px;
+    border: 3px solid orange;
+}
+.nav-select{
+    height: 40px;
+    width: 50px;
+    background-color: #F3F3F3;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.input-area{
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding-left: 8px;
+    font-size: 0.9rem;
+    margin-left: 0.4px;
+}
+
+.nav-button{
+    height: 40px;
+    width: 50px;
+    background-color: #FEBD69;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav-signin{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-one{
+    font-size: 0.75rem;
+}
+
+.text-two{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-returns{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cart{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-icon{
+    font-size: 28px;
+    color: #FEBD69;
+}
+
+#cart-text{
+    font-size: 16px;
+    margin-top: 10px
+}
+
+
+/* secondary navbar */
+
+.navbar-element{
+    background-color: #232F3E;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-ele-left{
+    height: 35px;
+    width: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-ele-left span{
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.nav-ele-fill {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-ele-fill p{
+    height: 35px;
+    /* width: 120px; */
+    padding: 0px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ele-right{
+    height: 30px;
+    width: 230px;
+    margin-right: 10px;
+    padding: 7px 9px;
+    font-weight: 700;
+    border: 1.5px solid transparent;
+}
+
+/* main section */
+
+main{
+    height: 3000px;
+    background: rgb(202,255,198);
+    background: linear-gradient(180deg, rgba(202,255,198,1) 0%, rgba(223,223,223,1) 39%, rgba(194,194,194,1) 100%);
+    margin: 0px 8px;
+}
+
+.hero-section{
+    height: 600px;
+    background-image: url("../Resourses/images/hero-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    height: 40px;
+    width: 97%;
+    background-color: #F3F3F3;
+    color: #0F1111;
+    font-size: 0.85rem;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+    box-shadow: #0F1111;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* content box  */
+
+.shoping-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -280px;
+    flex-wrap: wrap;
+}
+
+.content-box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.content-box h2 , .content-box2 h2{
+    font-size: 1.3rem;
+    
+}
+
+.content-box p{
+    font-size: 0.85rem;
+    color: #007185;
+}
+.content-img{
+    height: 300px;
+    margin: 10px 0px;
+    background-size: cover;
+}
+
+.content-box2{
+    width: 97%;
+    height: 250px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.box2-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+.content-img2{
+    height: 180px;
+    width: 150px;
+
+}
+
+/* footer */
+
+.return-section{
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.return-section:hover{
+    background-color: #37475af1;
+    cursor: pointer;
+}
+
+.access-section{
+    height: 420px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.access-col{
+    margin-top: -150px;
+}
+.access-col ul{
+    list-style-type: none;
+    line-height: 25px;
+    padding-left: 0px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+.amazon-logo-section{
+    height: 70px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazon-services{
+    height: 500px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.footer-table tr td{
+    height: 100px;
+    width: 100px;
+    /* background-color: #FEBD69; */
+    /* text-align: center; */
+    
+}
+
+
+.cell:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cell-head{
+    font-size: 14px;
+    color: #dddddd;
+}
+
+.cell-body{
+    font-size: 12px;
+    color: #999;
+}
+
+.copyright-section{
+    height: 70px;
+    background-color: #131A22;
+    color: #dddddd;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.footer-links span{
+    margin: 0px 5px;
+}
+
+.footer-links span i{
+    font-size: 1rem;
+    color: #0066FF;
+}
